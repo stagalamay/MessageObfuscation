@@ -24,7 +24,8 @@ This project implements a **message obfuscation system** that encodes readable t
 
 ## Step 1: Message Translation via `diropql`
 
-Text input is first compiled into a minimalist esolang that mimics Brainf\*\*\* behavior, using the alphabet `diropql`. Each character in the message is encoded into `diropql` instructions that increment memory cells and print characters.
+Text input is compiled into a custom minimalist language using the diropql alphabet. This language encodes characters by incrementing virtual memory cells and outputting the resulting values.
+
 
 ---
 
